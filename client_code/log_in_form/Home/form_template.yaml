@@ -37,96 +37,111 @@ components:
       layout_properties: {x: 10, y: 10, width: 855}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '           Manage Borrowers              ',
-        font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small,
-        italic: false, background: '', bold: false, underline: false, icon: ''}
+        enabled: true, foreground: '#0876E8', visible: true, text: '           Manage
+          Borrowers              ', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
       name: button_3
       layout_properties: {x: 316, y: 74, width: 255}
+      event_bindings: {click: button_3_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '              Manage
+        enabled: true, foreground: '#0876E8', visible: true, text: '              Manage
           Lenders               ', font_size: null, font: '', spacing_above: small,
         icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
         underline: false, icon: ''}
       name: button_4
-      layout_properties: {x: 616.9999847412109, y: 74, width: 255}
+      layout_properties: {x: 617, y: 74, width: 255}
+      event_bindings: {click: button_4_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '              Manage
+        enabled: true, foreground: '#0876E8', visible: true, text: '              Manage
           Products             ', font_size: null, font: '', spacing_above: small,
         icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
         underline: false, icon: ''}
       name: button_6
       layout_properties: {x: 317, y: 146, width: 255}
+      event_bindings: {click: button_6_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '             Manage Settings              ',
-        font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small,
-        italic: false, background: '', bold: false, underline: false, icon: ''}
+        enabled: true, foreground: '#0876E8', visible: true, text: '             Manage
+          Settings              ', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
       name: button_7
-      layout_properties: {x: 617.9999847412109, y: 146, width: 255}
+      layout_properties: {x: 618, y: 146, width: 255}
+      event_bindings: {click: button_7_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '     Manage Risk Pool
-          (FLDGB)     ', font_size: null, font: '', spacing_above: small, icon_align: left,
+        enabled: true, foreground: '#0876E8', visible: true, text: '     Manage Risk
+          Pool (FLDGB)     ', font_size: null, font: '', spacing_above: small, icon_align: left,
         spacing_below: small, italic: false, background: '', bold: false, underline: false,
         icon: ''}
       name: button_9
       layout_properties: {x: 316, y: 215, width: 255}
+      event_bindings: {click: button_9_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '         Manage Revenu
-          Share         ', font_size: null, font: '', spacing_above: small, icon_align: left,
-        spacing_below: small, italic: false, background: '', bold: false, underline: false,
-        icon: ''}
+        enabled: true, foreground: '#0876E8', visible: true, text: '         Manage
+          Revenu Share         ', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
       name: button_8
       layout_properties: {x: 10, y: 215, width: 255}
+      event_bindings: {click: button_8_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '            Loan Management            ',
-        font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small,
-        italic: false, background: '', bold: false, underline: false, icon: ''}
+        enabled: true, foreground: '#0876E8', visible: true, text: '            Loan
+          Management            ', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
       name: button_5
       layout_properties: {x: 10, y: 146, width: 255}
+      event_bindings: {click: button_5_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '          Manage Team
-          (RBAC)             ', font_size: null, font: '', spacing_above: small, icon_align: left,
-        spacing_below: small, italic: false, background: '', bold: false, underline: false,
-        icon: ''}
+        enabled: true, foreground: '#0876E8', visible: true, text: '          Manage
+          Team (RBAC)             ', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
       name: button_2
       layout_properties: {x: 10, y: 74, width: 255}
+      event_bindings: {click: button_2_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '              Manage
+        enabled: true, foreground: '#0876E8', visible: true, text: '              Manage
           CMS                    ', font_size: null, font: '', spacing_above: small,
         icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
         underline: false, icon: ''}
       name: button_10
-      layout_properties: {x: 617.9999847412109, y: 215, width: 255}
+      layout_properties: {x: 618, y: 215, width: 255}
+      event_bindings: {click: button_10_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '             Manage Reports               ',
-        font_size: null, font: '', spacing_above: small, icon_align: left, spacing_below: small,
-        italic: false, background: '', bold: false, underline: false, icon: ''}
+        enabled: true, foreground: '#0876E8', visible: true, text: '             Manage
+          Reports               ', font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+        underline: false, icon: ''}
       name: button_11
       layout_properties: {x: 10, y: 278, width: 255}
+      event_bindings: {click: button_11_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '                  ROI
+        enabled: true, foreground: '#0876E8', visible: true, text: '                  ROI
           Module                  ', font_size: null, font: '', spacing_above: small,
         icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
         underline: false, icon: ''}
       name: button_12
-      layout_properties: {x: 316, y: 281.4, width: 254}
+      layout_properties: {x: 316, y: 281.3999938964844, width: 254}
+      event_bindings: {click: button_12_click}
     - type: Button
       properties: {role: outlined-button, align: center, tooltip: '', border: '',
-        enabled: true, foreground: '', visible: true, text: '           Performance
+        enabled: true, foreground: '#0876E8', visible: true, text: '           Performance
           Tracke           ', font_size: null, font: '', spacing_above: small, icon_align: left,
         spacing_below: small, italic: false, background: '', bold: false, underline: false,
         icon: ''}
       name: button_13
-      layout_properties: {x: 616.9999847412109, y: 281.3999938964844, width: 253}
+      layout_properties: {x: 617, y: 281.3999938964844, width: 253}
       event_bindings: {click: button_13_click}
 - type: FlowPanel
   properties: {}

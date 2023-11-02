@@ -16,6 +16,55 @@ class Home(HomeTemplate):
     """This method is called when the button is clicked"""
     open_form('log_in_form')
 
+  def button_2_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.admin_teams')
+
+  def button_3_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.borrowers')
+
+  def button_4_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.lenders')
+
+  def button_5_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.loan_management')
+
+  def button_6_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.manage_products')
+
+  def button_7_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.manage_settings')
+
+  def button_8_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.revenue_share')
+
+  def button_9_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.risk_pool')
+
+  def button_10_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.manage_cms')
+
+  def button_11_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.manage_reports')
+
+  def button_12_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.ROI')
+
+  def button_13_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.performance_tracke')
+    
+
 
 
     
