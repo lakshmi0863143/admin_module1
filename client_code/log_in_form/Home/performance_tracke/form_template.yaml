@@ -25,6 +25,94 @@ components:
     name: button_1
     layout_properties: {grid_position: 'BUYBSS,YIZDQR'}
     event_bindings: {click: button_1_click}
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: Performance Tracker, font_size: 15, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_1
+    layout_properties: {grid_position: 'DJCXLB,WMKLFW'}
+  - type: Label
+    properties: {}
+    name: label_16
+    layout_properties: {grid_position: 'TAIHPT,LNWNOU'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'Total applications assigned ', font_size: null, font: '',
+      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_2
+    layout_properties: {grid_position: 'NDYTOT,QZXGNV'}
+  - type: Label
+    properties: {}
+    name: label_9
+    layout_properties: {grid_position: 'NDYTOT,LSIGHT'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Total applications rejected, font_size: null, font: '',
+      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: label_3
+    layout_properties: {grid_position: 'CJKWVY,FNUIHZ'}
+  - type: Label
+    properties: {}
+    name: label_10
+    layout_properties: {grid_position: 'CJKWVY,QAGVTG'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Total approved, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_4
+    layout_properties: {grid_position: 'CGQDKU,OHWABA'}
+  - type: Label
+    properties: {}
+    name: label_11
+    layout_properties: {grid_position: 'CGQDKU,GXNNPK'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Total green flags, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_5
+    layout_properties: {grid_position: 'UJOMFN,TSSECY'}
+  - type: Label
+    properties: {}
+    name: label_12
+    layout_properties: {grid_position: 'UJOMFN,QWDUIV'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Total amber flags, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_6
+    layout_properties: {grid_position: 'KFGWDG,XPJXCH'}
+  - type: Label
+    properties: {}
+    name: label_13
+    layout_properties: {grid_position: 'KFGWDG,GSFZUC'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Total red flags, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_7
+    layout_properties: {grid_position: 'HQIYAU,RYVNAI'}
+  - type: Label
+    properties: {}
+    name: label_14
+    layout_properties: {grid_position: 'HQIYAU,DDJIYL'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Total defaulters, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_8
+    layout_properties: {grid_position: 'ZMWOAQ,PIXJEP'}
+  - type: Label
+    properties: {}
+    name: label_15
+    layout_properties: {grid_position: 'ZMWOAQ,UELGKZ'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
